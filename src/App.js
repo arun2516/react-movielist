@@ -47,7 +47,7 @@ function Counter(){
     <div>
       <button onClick={()=> setlike(like +1)}>👍</button><span>{like}</span>
       
-     <p> <button onClick={()=> setdislike(dislike+1)}>👎</button><span>{dislike}</span></p>
+    <button onClick={()=> setdislike(dislike+1)}>👎</button><span>{dislike}</span>
       
     </div>
   )
